@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/ykollu/OneDrive - Infor/Desktop/katalone analysis/Katalon_Studio_Windows_64-6.1.2/configuration/org.eclipse.osgi/1134/0/.cp/resources/lib/selenium-server-standalone-3.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ykollu/OneDrive - Infor/Desktop/junit-4.10.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
