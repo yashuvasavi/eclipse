@@ -27,14 +27,14 @@ public class Udemy {
 	    public void Login()
 	    {
 	   
-	    	// String exePath = "C:\\Users\\ykollu\\OneDrive - Infor\\Desktop\\chromedriver_win32\\chromedriver.exe";
-	    	 //System.setProperty("webdriver.chrome.driver", exePath);
-	    	//WebDriver driver = new ChromeDriver();
+	    	 String exePath = "C:\\Users\\ykollu\\OneDrive - Infor\\Desktop\\drivers\\chromedriver_win32\\chromedriver.exe";
+	    	 System.setProperty("webdriver.chrome.driver", exePath);
+	    	WebDriver driver = new ChromeDriver();
 	    	//WebDriverWait wait = new WebDriverWait(driver,30);
-	    	System.setProperty("webdriver.ie.driver","C:/Users/ykollu/eclipse-workspace/testEX/drivers/iedriver/IEDriverServer.exe");
-	    	WebDriver driver = new InternetExplorerDriver();
-	    	WebDriverWait wait = new WebDriverWait(driver,30);
-		driver.get("https://nlbavwionop1.infor.com/infor/7c232f47-0872-416f-b0cf-da98610aef82");
+	    	//System.setProperty("webdriver.ie.driver","C:/Users/ykollu/eclipse-workspace/testEX/drivers/iedriver/IEDriverServer.exe");
+	    	//WebDriver driver = new InternetExplorerDriver();
+	    	//WebDriverWait wait = new WebDriverWait(driver,30);
+		driver.get("https://https://www.thepromoapp.com/");
 		WebElement query = driver.findElement(By.id("ContentPlaceHolder1_UsernameTextBox"));
 		query.sendKeys("ykollu");;
 		query = driver.findElement(By.id("ContentPlaceHolder1_PasswordTextBox"));
